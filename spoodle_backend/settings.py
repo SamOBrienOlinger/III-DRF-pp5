@@ -170,7 +170,7 @@ DATABASES = {
     } if 'DEV' in os.environ else dj_database_url.parse(
         os.environ.get('DATABASE_URL')
     ))
-    
+ 
 }
 print('connected')
 
